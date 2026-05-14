@@ -84,4 +84,4 @@ This project is licensed under the MIT License. Feel free to use and improve it!
 
 ---
 
-Developed with ❤️ by [Your Name/Username]
+Developed with ❤️ by Daniel Rincon
