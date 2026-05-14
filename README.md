@@ -1,87 +1,87 @@
-# 🎮 Tetris Moderno con TypeScript y Vite
+# 🎮 Modern Tetris with TypeScript and Vite
 
-Este es un proyecto de **Tetris** clásico pero con una estética moderna, desarrollado utilizando **TypeScript**, **Vite** y **HTML5 Canvas**. El objetivo es proporcionar una experiencia de juego fluida, visualmente atractiva y fácil de extender.
+This is a classic **Tetris** project with a modern aesthetic, developed using **TypeScript**, **Vite**, and **HTML5 Canvas**. The goal is to provide a smooth, visually appealing, and easily extensible gaming experience.
 
-![Tetris Preview](https://via.placeholder.com/800x450.png?text=Tetris+Moderno+Preview) *(Sustituir con captura real)*
-
----
-
-## ✨ Características
-
-- 🕹️ **Jugabilidad Clásica**: Todas las piezas originales (I, O, T, S, Z, J, L) con rotación y colisiones precisas.
-- 🎨 **Estética Moderna**: Diseño oscuro con colores neón vibrantes y efectos visuales sutiles.
-- 📊 **Sistema de Puntuación**: Puntos acumulables basados en el número de líneas completadas simultáneamente.
-- 🔮 **Próxima Pieza**: Visualización en tiempo real de la siguiente pieza que entrará en juego.
-- 💀 **Pantalla de Game Over**: Sistema de reinicio rápido para volver a la acción instantáneamente.
-- 📱 **Diseño Limpio**: Interfaz minimalista centrada en el tablero de juego.
+![Tetris Preview](https://via.placeholder.com/800x450.png?text=Modern+Tetris+Preview) *(Replace with actual screenshot)*
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## ✨ Features
 
-- **Lenguaje**: [TypeScript](https://www.typescriptlang.org/) (Tipado fuerte para un código más robusto).
-- **Herramienta de Construcción**: [Vite](https://vitejs.dev/) (Servidor de desarrollo ultra rápido).
-- **Renderizado**: HTML5 Canvas API.
-- **Estilos**: CSS3 puro con un enfoque en diseño moderno.
+- 🕹️ **Classic Gameplay**: All original pieces (I, O, T, S, Z, J, L) with accurate rotation and collision.
+- 🎨 **Modern Aesthetic**: Dark design with vibrant neon colors and subtle visual effects.
+- 📊 **Scoring System**: Accumulate points based on the number of lines cleared simultaneously.
+- 🔮 **Next Piece**: Real-time preview of the next piece entering the game.
+- 💀 **Game Over Screen**: Quick restart system to get back into the action instantly.
+- 📱 **Clean Design**: Minimalist interface focused on the game board.
 
 ---
 
-## 🚀 Instalación y Ejecución
+## 🛠️ Technologies Used
 
-Sigue estos pasos para ejecutar el proyecto localmente:
+- **Language**: [TypeScript](https://www.typescriptlang.org/) (Strong typing for more robust code).
+- **Build Tool**: [Vite](https://vitejs.dev/) (Ultra-fast development server).
+- **Rendering**: HTML5 Canvas API.
+- **Styling**: Pure CSS3 with a focus on modern design.
 
-1. **Clonar el repositorio:**
+---
+
+## 🚀 Installation and Setup
+
+Follow these steps to run the project locally:
+
+1. **Clone the repository:**
    ```bash
-   git clone https://github.com/tu-usuario/tetris-ts.git
+   git clone https://github.com/your-username/tetris-ts.git
    cd tetris-ts
    ```
 
-2. **Instalar dependencias:**
+2. **Install dependencies:**
    ```bash
    npm install
    ```
 
-3. **Iniciar el servidor de desarrollo:**
+3. **Start the development server:**
    ```bash
    npm run dev
    ```
 
-4. **Abrir en el navegador:**
-   Visita `http://localhost:5173` para empezar a jugar.
+4. **Open in your browser:**
+   Visit `http://localhost:5173` to start playing.
 
 ---
 
-## 🎮 Controles
+## 🎮 Controls
 
-| Tecla | Acción |
+| Key | Action |
 | :--- | :--- |
-| `←` / `→` | Mover a la izquierda / derecha |
-| `↑` | Rotar pieza |
-| `↓` | Caída rápida |
-| `Enter` (en Game Over) | Reiniciar juego |
+| `←` / `→` | Move Left / Right |
+| `↑` | Rotate Piece |
+| `↓` | Fast Drop |
+| `Enter` (on Game Over) | Restart Game |
 
 ---
 
-## 📂 Estructura del Proyecto
+## 📂 Project Structure
 
 ```text
 Tetris/
 ├── src/
-│   ├── main.ts        # Lógica principal y bucle de juego
-│   ├── board.ts       # Gestión del tablero y líneas
-│   ├── piece.ts       # Lógica de las piezas (movimiento, rotación)
-│   └── constants.ts   # Definición de formas, colores y tamaños
-├── index.html         # Estructura base de la aplicación
-├── style.css          # Estilos visuales
-└── package.json       # Configuración y dependencias
+│   ├── main.ts        # Main logic and game loop
+│   ├── board.ts       # Board management and line clearing
+│   ├── piece.ts       # Piece logic (movement, rotation)
+│   └── constants.ts   # Definition of shapes, colors, and sizes
+├── index.html         # Base application structure
+├── style.css          # Visual styles
+└── package.json       # Configuration and dependencies
 ```
 
 ---
 
-## 📝 Licencia
+## 📝 License
 
-Este proyecto está bajo la Licencia MIT. ¡Siéntete libre de usarlo y mejorarlo!
+This project is licensed under the MIT License. Feel free to use and improve it!
 
 ---
 
-Desarrollado con ❤️ por [Tu Nombre/Usuario]
+Developed with ❤️ by [Your Name/Username]
